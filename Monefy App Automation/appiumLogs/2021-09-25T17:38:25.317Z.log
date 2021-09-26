@@ -1,0 +1,289 @@
+2021-09-25 17:38:27:958 [Appium] Welcome to Appium v1.20.2
+2021-09-25 17:38:27:960 [Appium] Non-default server args:
+2021-09-25 17:38:27:961 [Appium]   address: 127.0.0.1
+2021-09-25 17:38:27:961 [Appium]   port: 64882
+2021-09-25 17:38:27:961 [Appium]   bootstrapPort: 64881
+2021-09-25 17:38:27:961 [Appium]   logFile: /Users/saurabhgarg/Documents/Personal/n26/Monefy App Automation/appiumLogs/2021-09-25T17:38:25.317Z.log
+2021-09-25 17:38:27:961 [Appium]   loglevel: info
+2021-09-25 17:38:27:961 [Appium]   suppressKillServer: true
+2021-09-25 17:38:27:982 [Appium] Appium REST http interface listener started on 127.0.0.1:64882
+2021-09-25 17:38:28:252 [HTTP] --> GET /wd/hub/status
+2021-09-25 17:38:28:252 [HTTP] {}
+2021-09-25 17:38:28:259 [HTTP] <-- GET /wd/hub/status 200 6 ms - 68
+2021-09-25 17:38:28:259 [HTTP] 
+2021-09-25 17:38:29:035 [HTTP] --> POST /wd/hub/session
+2021-09-25 17:38:29:035 [HTTP] {"desiredCapabilities":{"app":"/Users/saurabhgarg/Documents/Personal/n26/Monefy App Automation/src/test/resources/apps/com.monefy.app.lite_2021-08-21.apk","newCommandTimeout":60,"platformVersion":"10","platformName":"ANDROID","udid":"emulator-5554","deviceName":"Android SDK built for x86"},"capabilities":{"firstMatch":[{"appium:app":"/Users/saurabhgarg/Documents/Personal/n26/Monefy App Automation/src/test/resources/apps/com.monefy.app.lite_2021-08-21.apk","appium:deviceName":"Android SDK built for x86","appium:newCommandTimeout":60,"platformName":"android","appium:platformVersion":"10","appium:udid":"emulator-5554"}]}}
+2021-09-25 17:38:29:045 [Appium] 
+2021-09-25 17:38:29:045 [Appium] ======================================================================
+2021-09-25 17:38:29:045 [Appium]   DEPRECATION WARNING:
+2021-09-25 17:38:29:045 [Appium] 
+2021-09-25 17:38:29:045 [Appium]   The 'automationName' capability was not provided in the desired 
+2021-09-25 17:38:29:045 [Appium]   capabilities for this Android session
+2021-09-25 17:38:29:045 [Appium] 
+2021-09-25 17:38:29:045 [Appium]   Setting 'automationName=UiAutomator2' by default and using the 
+2021-09-25 17:38:29:045 [Appium]   UiAutomator2 Driver
+2021-09-25 17:38:29:045 [Appium] 
+2021-09-25 17:38:29:046 [Appium]   The next major version of Appium (2.x) will **require** the 
+2021-09-25 17:38:29:046 [Appium]   'automationName' capability to be set for all sessions on all 
+2021-09-25 17:38:29:046 [Appium]   platforms
+2021-09-25 17:38:29:046 [Appium] 
+2021-09-25 17:38:29:046 [Appium]   In previous versions (Appium <= 1.13.x), the default was 
+2021-09-25 17:38:29:046 [Appium]   'automationName=UiAutomator1'
+2021-09-25 17:38:29:046 [Appium] 
+2021-09-25 17:38:29:046 [Appium]   If you wish to use that automation instead of UiAutomator2, please 
+2021-09-25 17:38:29:046 [Appium]   add 'automationName=UiAutomator1' to your desired capabilities
+2021-09-25 17:38:29:046 [Appium] 
+2021-09-25 17:38:29:046 [Appium]   For more information about drivers, please visit 
+2021-09-25 17:38:29:046 [Appium]   http://appium.io/docs/en/about-appium/intro/ and explore the 
+2021-09-25 17:38:29:046 [Appium]   'Drivers' menu
+2021-09-25 17:38:29:046 [Appium] 
+2021-09-25 17:38:29:046 [Appium] ======================================================================
+2021-09-25 17:38:29:047 [Appium] 
+2021-09-25 17:38:29:471 [Appium] Appium v1.20.2 creating new AndroidUiautomator2Driver (v1.61.2) session
+2021-09-25 17:38:29:478 [BaseDriver] Session created with session id: 5943a065-91de-4ad8-984e-20bbd36960c2
+2021-09-25 17:38:29:480 [BaseDriver] Using local app '/Users/saurabhgarg/Documents/Personal/n26/Monefy App Automation/src/test/resources/apps/com.monefy.app.lite_2021-08-21.apk'
+2021-09-25 17:38:29:487 [ADB] Found 1 'build-tools' folders under '/usr/local/share/android-sdk' (newest first):
+2021-09-25 17:38:29:487 [ADB]     /usr/local/share/android-sdk/build-tools/30.0.3
+2021-09-25 17:38:29:487 [ADB] Using 'adb' from '/usr/local/share/android-sdk/platform-tools/adb'
+2021-09-25 17:38:29:500 [AndroidDriver] Retrieving device list
+2021-09-25 17:38:29:509 [AndroidDriver] Using device: emulator-5554
+2021-09-25 17:38:29:510 [ADB] Using 'adb' from '/usr/local/share/android-sdk/platform-tools/adb'
+2021-09-25 17:38:29:533 [ADB] Getting device platform version
+2021-09-25 17:38:29:549 [UiAutomator2] Relaxing hidden api policy
+2021-09-25 17:38:29:618 [ADB] Package name: 'com.monefy.app.lite'
+2021-09-25 17:38:29:618 [ADB] Main activity name: 'com.monefy.activities.main.MainActivity_'
+2021-09-25 17:38:29:873 [ADB] Using 'apksigner.jar' from '/usr/local/share/android-sdk/build-tools/30.0.3/lib/apksigner.jar'
+2021-09-25 17:38:30:441 [ADB] '/Users/saurabhgarg/.nvm/versions/node/v11.3.0/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-v4.17.4.apk' is signed with the default certificate
+2021-09-25 17:38:30:754 [ADB] '/Users/saurabhgarg/.nvm/versions/node/v11.3.0/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk' is signed with the default certificate
+2021-09-25 17:38:30:754 [UiAutomator2] Server packages are not going to be (re)installed
+2021-09-25 17:38:30:782 [ADB] Adding packages ["io.appium.settings","io.appium.uiautomator2.server","io.appium.uiautomator2.server.test"] to Doze whitelist
+2021-09-25 17:38:31:577 [ADB] '/Users/saurabhgarg/Documents/Personal/n26/Monefy App Automation/src/test/resources/apps/com.monefy.app.lite_2021-08-21.apk' is signed with a non-default certificate
+2021-09-25 17:38:31:627 [AndroidDriver] Performing fast reset on 'com.monefy.app.lite'
+2021-09-25 17:38:31:768 [UiAutomator2] Starting UIAutomator2 server 4.17.4
+2021-09-25 17:38:31:768 [UiAutomator2] Using UIAutomator2 server from '/Users/saurabhgarg/.nvm/versions/node/v11.3.0/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-v4.17.4.apk' and test from '/Users/saurabhgarg/.nvm/versions/node/v11.3.0/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk'
+2021-09-25 17:38:31:768 [UiAutomator2] Waiting up to 30000ms for UiAutomator2 to be online...
+2021-09-25 17:38:31:776 [WD Proxy] socket hang up
+2021-09-25 17:38:32:788 [WD Proxy] socket hang up
+2021-09-25 17:38:33:920 [WD Proxy] Determined the downstream protocol as 'W3C'
+2021-09-25 17:38:33:975 [AndroidDriver] Screen already unlocked, doing nothing
+2021-09-25 17:38:33:975 [UiAutomator2] Starting 'com.monefy.app.lite/com.monefy.activities.main.MainActivity_ and waiting for 'com.monefy.app.lite/com.monefy.activities.main.MainActivity_'
+2021-09-25 17:38:35:537 [Appium] New AndroidUiautomator2Driver session created successfully, session 5943a065-91de-4ad8-984e-20bbd36960c2 added to master session list
+2021-09-25 17:38:35:539 [HTTP] <-- POST /wd/hub/session 200 6503 ms - 1116
+2021-09-25 17:38:35:539 [HTTP] 
+2021-09-25 17:38:35:582 [HTTP] --> POST /wd/hub/session/5943a065-91de-4ad8-984e-20bbd36960c2/timeouts
+2021-09-25 17:38:35:582 [HTTP] {"implicit":20000}
+2021-09-25 17:38:35:586 [HTTP] <-- POST /wd/hub/session/5943a065-91de-4ad8-984e-20bbd36960c2/timeouts 200 4 ms - 14
+2021-09-25 17:38:35:586 [HTTP] 
+2021-09-25 17:38:35:713 [HTTP] --> GET /wd/hub/session/5943a065-91de-4ad8-984e-20bbd36960c2/context
+2021-09-25 17:38:35:713 [HTTP] {}
+2021-09-25 17:38:35:717 [HTTP] <-- GET /wd/hub/session/5943a065-91de-4ad8-984e-20bbd36960c2/context 200 4 ms - 22
+2021-09-25 17:38:35:717 [HTTP] 
+2021-09-25 17:38:35:723 [HTTP] --> POST /wd/hub/session/5943a065-91de-4ad8-984e-20bbd36960c2/element
+2021-09-25 17:38:35:723 [HTTP] {"using":"id","value":"com.monefy.app.lite:id/income_button"}
+2021-09-25 17:38:36:962 [HTTP] <-- POST /wd/hub/session/5943a065-91de-4ad8-984e-20bbd36960c2/element 200 1239 ms - 137
+2021-09-25 17:38:36:962 [HTTP] 
+2021-09-25 17:38:36:964 [HTTP] --> GET /wd/hub/session/5943a065-91de-4ad8-984e-20bbd36960c2/element/fe8df6d0-4948-4740-8a86-42f050c1b71c/displayed
+2021-09-25 17:38:36:965 [HTTP] {}
+2021-09-25 17:38:36:975 [HTTP] <-- GET /wd/hub/session/5943a065-91de-4ad8-984e-20bbd36960c2/element/fe8df6d0-4948-4740-8a86-42f050c1b71c/displayed 200 11 ms - 14
+2021-09-25 17:38:36:975 [HTTP] 
+2021-09-25 17:38:36:977 [HTTP] --> GET /wd/hub/session/5943a065-91de-4ad8-984e-20bbd36960c2/context
+2021-09-25 17:38:36:977 [HTTP] {}
+2021-09-25 17:38:36:978 [HTTP] <-- GET /wd/hub/session/5943a065-91de-4ad8-984e-20bbd36960c2/context 200 1 ms - 22
+2021-09-25 17:38:36:978 [HTTP] 
+2021-09-25 17:38:36:981 [HTTP] --> POST /wd/hub/session/5943a065-91de-4ad8-984e-20bbd36960c2/element
+2021-09-25 17:38:36:981 [HTTP] {"using":"id","value":"com.monefy.app.lite:id/income_button"}
+2021-09-25 17:38:37:020 [HTTP] <-- POST /wd/hub/session/5943a065-91de-4ad8-984e-20bbd36960c2/element 200 39 ms - 137
+2021-09-25 17:38:37:020 [HTTP] 
+2021-09-25 17:38:37:023 [HTTP] --> POST /wd/hub/session/5943a065-91de-4ad8-984e-20bbd36960c2/element/97881e68-28e2-446f-958b-121cbce14cab/click
+2021-09-25 17:38:37:024 [HTTP] {"id":"97881e68-28e2-446f-958b-121cbce14cab"}
+2021-09-25 17:38:37:064 [HTTP] <-- POST /wd/hub/session/5943a065-91de-4ad8-984e-20bbd36960c2/element/97881e68-28e2-446f-958b-121cbce14cab/click 200 40 ms - 14
+2021-09-25 17:38:37:064 [HTTP] 
+2021-09-25 17:38:37:067 [HTTP] --> GET /wd/hub/session/5943a065-91de-4ad8-984e-20bbd36960c2/context
+2021-09-25 17:38:37:067 [HTTP] {}
+2021-09-25 17:38:37:067 [HTTP] <-- GET /wd/hub/session/5943a065-91de-4ad8-984e-20bbd36960c2/context 200 1 ms - 22
+2021-09-25 17:38:37:068 [HTTP] 
+2021-09-25 17:38:37:071 [HTTP] --> POST /wd/hub/session/5943a065-91de-4ad8-984e-20bbd36960c2/element
+2021-09-25 17:38:37:071 [HTTP] {"using":"id","value":"com.monefy.app.lite:id/buttonKeyboard5"}
+2021-09-25 17:38:37:905 [HTTP] <-- POST /wd/hub/session/5943a065-91de-4ad8-984e-20bbd36960c2/element 200 834 ms - 137
+2021-09-25 17:38:37:905 [HTTP] 
+2021-09-25 17:38:37:907 [HTTP] --> GET /wd/hub/session/5943a065-91de-4ad8-984e-20bbd36960c2/element/6a6f9d91-40ea-4146-87fd-b18d6099f729/displayed
+2021-09-25 17:38:37:907 [HTTP] {}
+2021-09-25 17:38:39:006 [HTTP] <-- GET /wd/hub/session/5943a065-91de-4ad8-984e-20bbd36960c2/element/6a6f9d91-40ea-4146-87fd-b18d6099f729/displayed 200 1100 ms - 14
+2021-09-25 17:38:39:007 [HTTP] 
+2021-09-25 17:38:39:008 [HTTP] --> GET /wd/hub/session/5943a065-91de-4ad8-984e-20bbd36960c2/context
+2021-09-25 17:38:39:008 [HTTP] {}
+2021-09-25 17:38:39:009 [HTTP] <-- GET /wd/hub/session/5943a065-91de-4ad8-984e-20bbd36960c2/context 200 1 ms - 22
+2021-09-25 17:38:39:009 [HTTP] 
+2021-09-25 17:38:39:012 [HTTP] --> POST /wd/hub/session/5943a065-91de-4ad8-984e-20bbd36960c2/element
+2021-09-25 17:38:39:012 [HTTP] {"using":"id","value":"com.monefy.app.lite:id/buttonKeyboard5"}
+2021-09-25 17:38:39:036 [HTTP] <-- POST /wd/hub/session/5943a065-91de-4ad8-984e-20bbd36960c2/element 200 24 ms - 137
+2021-09-25 17:38:39:036 [HTTP] 
+2021-09-25 17:38:39:039 [HTTP] --> POST /wd/hub/session/5943a065-91de-4ad8-984e-20bbd36960c2/element/a146d021-e0da-452b-88c9-75b821401914/click
+2021-09-25 17:38:39:039 [HTTP] {"id":"a146d021-e0da-452b-88c9-75b821401914"}
+2021-09-25 17:38:39:080 [HTTP] <-- POST /wd/hub/session/5943a065-91de-4ad8-984e-20bbd36960c2/element/a146d021-e0da-452b-88c9-75b821401914/click 200 41 ms - 14
+2021-09-25 17:38:39:080 [HTTP] 
+2021-09-25 17:38:39:081 [HTTP] --> GET /wd/hub/session/5943a065-91de-4ad8-984e-20bbd36960c2/context
+2021-09-25 17:38:39:081 [HTTP] {}
+2021-09-25 17:38:39:082 [HTTP] <-- GET /wd/hub/session/5943a065-91de-4ad8-984e-20bbd36960c2/context 200 1 ms - 22
+2021-09-25 17:38:39:082 [HTTP] 
+2021-09-25 17:38:39:085 [HTTP] --> POST /wd/hub/session/5943a065-91de-4ad8-984e-20bbd36960c2/element
+2021-09-25 17:38:39:085 [HTTP] {"using":"id","value":"com.monefy.app.lite:id/buttonKeyboard0"}
+2021-09-25 17:38:39:115 [HTTP] <-- POST /wd/hub/session/5943a065-91de-4ad8-984e-20bbd36960c2/element 200 30 ms - 137
+2021-09-25 17:38:39:115 [HTTP] 
+2021-09-25 17:38:39:119 [HTTP] --> POST /wd/hub/session/5943a065-91de-4ad8-984e-20bbd36960c2/element/e5db4281-b7d6-4021-9ee4-40359b72544f/click
+2021-09-25 17:38:39:119 [HTTP] {"id":"e5db4281-b7d6-4021-9ee4-40359b72544f"}
+2021-09-25 17:38:39:630 [HTTP] <-- POST /wd/hub/session/5943a065-91de-4ad8-984e-20bbd36960c2/element/e5db4281-b7d6-4021-9ee4-40359b72544f/click 200 511 ms - 14
+2021-09-25 17:38:39:630 [HTTP] 
+2021-09-25 17:38:39:632 [HTTP] --> GET /wd/hub/session/5943a065-91de-4ad8-984e-20bbd36960c2/context
+2021-09-25 17:38:39:632 [HTTP] {}
+2021-09-25 17:38:39:633 [HTTP] <-- GET /wd/hub/session/5943a065-91de-4ad8-984e-20bbd36960c2/context 200 1 ms - 22
+2021-09-25 17:38:39:633 [HTTP] 
+2021-09-25 17:38:39:636 [HTTP] --> POST /wd/hub/session/5943a065-91de-4ad8-984e-20bbd36960c2/element
+2021-09-25 17:38:39:636 [HTTP] {"using":"id","value":"com.monefy.app.lite:id/keyboard_action_button"}
+2021-09-25 17:38:39:670 [HTTP] <-- POST /wd/hub/session/5943a065-91de-4ad8-984e-20bbd36960c2/element 200 34 ms - 137
+2021-09-25 17:38:39:670 [HTTP] 
+2021-09-25 17:38:39:673 [HTTP] --> POST /wd/hub/session/5943a065-91de-4ad8-984e-20bbd36960c2/element/47a75c8b-3415-48b4-8a8f-9cccd70d2002/click
+2021-09-25 17:38:39:673 [HTTP] {"id":"47a75c8b-3415-48b4-8a8f-9cccd70d2002"}
+2021-09-25 17:38:40:166 [HTTP] <-- POST /wd/hub/session/5943a065-91de-4ad8-984e-20bbd36960c2/element/47a75c8b-3415-48b4-8a8f-9cccd70d2002/click 200 492 ms - 14
+2021-09-25 17:38:40:166 [HTTP] 
+2021-09-25 17:38:40:168 [HTTP] --> GET /wd/hub/session/5943a065-91de-4ad8-984e-20bbd36960c2/context
+2021-09-25 17:38:40:168 [HTTP] {}
+2021-09-25 17:38:40:169 [HTTP] <-- GET /wd/hub/session/5943a065-91de-4ad8-984e-20bbd36960c2/context 200 1 ms - 22
+2021-09-25 17:38:40:169 [HTTP] 
+2021-09-25 17:38:40:172 [HTTP] --> POST /wd/hub/session/5943a065-91de-4ad8-984e-20bbd36960c2/element
+2021-09-25 17:38:40:172 [HTTP] {"using":"xpath","value":"//android.widget.TextView[contains(@text,'Salary')]/.."}
+2021-09-25 17:38:40:517 [HTTP] <-- POST /wd/hub/session/5943a065-91de-4ad8-984e-20bbd36960c2/element 200 345 ms - 137
+2021-09-25 17:38:40:517 [HTTP] 
+2021-09-25 17:38:40:518 [HTTP] --> GET /wd/hub/session/5943a065-91de-4ad8-984e-20bbd36960c2/element/b2c099a5-bfbe-49fa-9cc2-92fbc2870a4c/displayed
+2021-09-25 17:38:40:519 [HTTP] {}
+2021-09-25 17:38:41:188 [HTTP] <-- GET /wd/hub/session/5943a065-91de-4ad8-984e-20bbd36960c2/element/b2c099a5-bfbe-49fa-9cc2-92fbc2870a4c/displayed 200 669 ms - 14
+2021-09-25 17:38:41:188 [HTTP] 
+2021-09-25 17:38:41:190 [HTTP] --> GET /wd/hub/session/5943a065-91de-4ad8-984e-20bbd36960c2/context
+2021-09-25 17:38:41:190 [HTTP] {}
+2021-09-25 17:38:41:191 [HTTP] <-- GET /wd/hub/session/5943a065-91de-4ad8-984e-20bbd36960c2/context 200 1 ms - 22
+2021-09-25 17:38:41:191 [HTTP] 
+2021-09-25 17:38:41:194 [HTTP] --> POST /wd/hub/session/5943a065-91de-4ad8-984e-20bbd36960c2/element
+2021-09-25 17:38:41:194 [HTTP] {"using":"xpath","value":"//android.widget.TextView[contains(@text,'Salary')]/.."}
+2021-09-25 17:38:41:233 [HTTP] <-- POST /wd/hub/session/5943a065-91de-4ad8-984e-20bbd36960c2/element 200 39 ms - 137
+2021-09-25 17:38:41:233 [HTTP] 
+2021-09-25 17:38:41:236 [HTTP] --> POST /wd/hub/session/5943a065-91de-4ad8-984e-20bbd36960c2/element/937cfff7-5929-4573-b2b5-4c174bdf260d/click
+2021-09-25 17:38:41:236 [HTTP] {"id":"937cfff7-5929-4573-b2b5-4c174bdf260d"}
+2021-09-25 17:38:42:862 [HTTP] <-- POST /wd/hub/session/5943a065-91de-4ad8-984e-20bbd36960c2/element/937cfff7-5929-4573-b2b5-4c174bdf260d/click 200 1626 ms - 14
+2021-09-25 17:38:42:862 [HTTP] 
+2021-09-25 17:38:47:872 [HTTP] --> GET /wd/hub/session/5943a065-91de-4ad8-984e-20bbd36960c2/context
+2021-09-25 17:38:47:873 [HTTP] {}
+2021-09-25 17:38:47:875 [HTTP] <-- GET /wd/hub/session/5943a065-91de-4ad8-984e-20bbd36960c2/context 200 2 ms - 22
+2021-09-25 17:38:47:875 [HTTP] 
+2021-09-25 17:38:47:878 [HTTP] --> POST /wd/hub/session/5943a065-91de-4ad8-984e-20bbd36960c2/element
+2021-09-25 17:38:47:878 [HTTP] {"using":"id","value":"com.monefy.app.lite:id/expense_button_title"}
+2021-09-25 17:38:47:929 [HTTP] <-- POST /wd/hub/session/5943a065-91de-4ad8-984e-20bbd36960c2/element 200 51 ms - 137
+2021-09-25 17:38:47:929 [HTTP] 
+2021-09-25 17:38:47:930 [HTTP] --> GET /wd/hub/session/5943a065-91de-4ad8-984e-20bbd36960c2/element/057ad25b-3fe4-4182-99b3-bc801f0b0483/displayed
+2021-09-25 17:38:47:930 [HTTP] {}
+2021-09-25 17:38:47:940 [HTTP] <-- GET /wd/hub/session/5943a065-91de-4ad8-984e-20bbd36960c2/element/057ad25b-3fe4-4182-99b3-bc801f0b0483/displayed 200 9 ms - 14
+2021-09-25 17:38:47:940 [HTTP] 
+2021-09-25 17:38:47:941 [HTTP] --> GET /wd/hub/session/5943a065-91de-4ad8-984e-20bbd36960c2/context
+2021-09-25 17:38:47:941 [HTTP] {}
+2021-09-25 17:38:47:942 [HTTP] <-- GET /wd/hub/session/5943a065-91de-4ad8-984e-20bbd36960c2/context 200 1 ms - 22
+2021-09-25 17:38:47:942 [HTTP] 
+2021-09-25 17:38:47:945 [HTTP] --> POST /wd/hub/session/5943a065-91de-4ad8-984e-20bbd36960c2/element
+2021-09-25 17:38:47:945 [HTTP] {"using":"id","value":"com.monefy.app.lite:id/expense_button_title"}
+2021-09-25 17:38:47:995 [HTTP] <-- POST /wd/hub/session/5943a065-91de-4ad8-984e-20bbd36960c2/element 200 50 ms - 137
+2021-09-25 17:38:47:995 [HTTP] 
+2021-09-25 17:38:47:998 [HTTP] --> POST /wd/hub/session/5943a065-91de-4ad8-984e-20bbd36960c2/element/57befd69-f6cd-4fce-961e-16e64f2e2ec1/click
+2021-09-25 17:38:47:998 [HTTP] {"id":"57befd69-f6cd-4fce-961e-16e64f2e2ec1"}
+2021-09-25 17:38:48:043 [HTTP] <-- POST /wd/hub/session/5943a065-91de-4ad8-984e-20bbd36960c2/element/57befd69-f6cd-4fce-961e-16e64f2e2ec1/click 200 45 ms - 14
+2021-09-25 17:38:48:043 [HTTP] 
+2021-09-25 17:38:48:045 [HTTP] --> GET /wd/hub/session/5943a065-91de-4ad8-984e-20bbd36960c2/context
+2021-09-25 17:38:48:045 [HTTP] {}
+2021-09-25 17:38:48:046 [HTTP] <-- GET /wd/hub/session/5943a065-91de-4ad8-984e-20bbd36960c2/context 200 1 ms - 22
+2021-09-25 17:38:48:046 [HTTP] 
+2021-09-25 17:38:48:049 [HTTP] --> POST /wd/hub/session/5943a065-91de-4ad8-984e-20bbd36960c2/element
+2021-09-25 17:38:48:049 [HTTP] {"using":"id","value":"com.monefy.app.lite:id/buttonKeyboard5"}
+2021-09-25 17:38:48:274 [HTTP] <-- POST /wd/hub/session/5943a065-91de-4ad8-984e-20bbd36960c2/element 200 224 ms - 137
+2021-09-25 17:38:48:274 [HTTP] 
+2021-09-25 17:38:48:275 [HTTP] --> GET /wd/hub/session/5943a065-91de-4ad8-984e-20bbd36960c2/element/4c101a5b-bc6a-4d42-9ea9-ff7436fa8124/displayed
+2021-09-25 17:38:48:275 [HTTP] {}
+2021-09-25 17:38:48:751 [HTTP] <-- GET /wd/hub/session/5943a065-91de-4ad8-984e-20bbd36960c2/element/4c101a5b-bc6a-4d42-9ea9-ff7436fa8124/displayed 200 476 ms - 14
+2021-09-25 17:38:48:751 [HTTP] 
+2021-09-25 17:38:48:753 [HTTP] --> GET /wd/hub/session/5943a065-91de-4ad8-984e-20bbd36960c2/context
+2021-09-25 17:38:48:753 [HTTP] {}
+2021-09-25 17:38:48:754 [HTTP] <-- GET /wd/hub/session/5943a065-91de-4ad8-984e-20bbd36960c2/context 200 1 ms - 22
+2021-09-25 17:38:48:754 [HTTP] 
+2021-09-25 17:38:48:757 [HTTP] --> POST /wd/hub/session/5943a065-91de-4ad8-984e-20bbd36960c2/element
+2021-09-25 17:38:48:757 [HTTP] {"using":"id","value":"com.monefy.app.lite:id/buttonKeyboard5"}
+2021-09-25 17:38:48:778 [HTTP] <-- POST /wd/hub/session/5943a065-91de-4ad8-984e-20bbd36960c2/element 200 21 ms - 137
+2021-09-25 17:38:48:778 [HTTP] 
+2021-09-25 17:38:48:781 [HTTP] --> POST /wd/hub/session/5943a065-91de-4ad8-984e-20bbd36960c2/element/91af8d38-2b74-49b4-8786-b14b86a1532a/click
+2021-09-25 17:38:48:781 [HTTP] {"id":"91af8d38-2b74-49b4-8786-b14b86a1532a"}
+2021-09-25 17:38:48:842 [HTTP] <-- POST /wd/hub/session/5943a065-91de-4ad8-984e-20bbd36960c2/element/91af8d38-2b74-49b4-8786-b14b86a1532a/click 200 61 ms - 14
+2021-09-25 17:38:48:842 [HTTP] 
+2021-09-25 17:38:48:844 [HTTP] --> GET /wd/hub/session/5943a065-91de-4ad8-984e-20bbd36960c2/context
+2021-09-25 17:38:48:844 [HTTP] {}
+2021-09-25 17:38:48:844 [HTTP] <-- GET /wd/hub/session/5943a065-91de-4ad8-984e-20bbd36960c2/context 200 1 ms - 22
+2021-09-25 17:38:48:845 [HTTP] 
+2021-09-25 17:38:48:848 [HTTP] --> POST /wd/hub/session/5943a065-91de-4ad8-984e-20bbd36960c2/element
+2021-09-25 17:38:48:848 [HTTP] {"using":"id","value":"com.monefy.app.lite:id/keyboard_action_button"}
+2021-09-25 17:38:49:362 [HTTP] <-- POST /wd/hub/session/5943a065-91de-4ad8-984e-20bbd36960c2/element 200 514 ms - 137
+2021-09-25 17:38:49:362 [HTTP] 
+2021-09-25 17:38:49:365 [HTTP] --> POST /wd/hub/session/5943a065-91de-4ad8-984e-20bbd36960c2/element/4e71bd86-80aa-4da4-a70f-ebf9f853ca27/click
+2021-09-25 17:38:49:365 [HTTP] {"id":"4e71bd86-80aa-4da4-a70f-ebf9f853ca27"}
+2021-09-25 17:38:49:411 [HTTP] <-- POST /wd/hub/session/5943a065-91de-4ad8-984e-20bbd36960c2/element/4e71bd86-80aa-4da4-a70f-ebf9f853ca27/click 200 46 ms - 14
+2021-09-25 17:38:49:411 [HTTP] 
+2021-09-25 17:38:49:414 [HTTP] --> GET /wd/hub/session/5943a065-91de-4ad8-984e-20bbd36960c2/context
+2021-09-25 17:38:49:414 [HTTP] {}
+2021-09-25 17:38:49:416 [HTTP] <-- GET /wd/hub/session/5943a065-91de-4ad8-984e-20bbd36960c2/context 200 3 ms - 22
+2021-09-25 17:38:49:416 [HTTP] 
+2021-09-25 17:38:49:419 [HTTP] --> POST /wd/hub/session/5943a065-91de-4ad8-984e-20bbd36960c2/element
+2021-09-25 17:38:49:420 [HTTP] {"using":"xpath","value":"//android.widget.TextView[contains(@text,'Car')]/.."}
+2021-09-25 17:38:49:775 [HTTP] <-- POST /wd/hub/session/5943a065-91de-4ad8-984e-20bbd36960c2/element 200 356 ms - 137
+2021-09-25 17:38:49:775 [HTTP] 
+2021-09-25 17:38:49:777 [HTTP] --> GET /wd/hub/session/5943a065-91de-4ad8-984e-20bbd36960c2/element/384df327-fa7c-41cd-a0c5-7536f4119b91/displayed
+2021-09-25 17:38:49:777 [HTTP] {}
+2021-09-25 17:38:50:451 [HTTP] <-- GET /wd/hub/session/5943a065-91de-4ad8-984e-20bbd36960c2/element/384df327-fa7c-41cd-a0c5-7536f4119b91/displayed 200 674 ms - 14
+2021-09-25 17:38:50:451 [HTTP] 
+2021-09-25 17:38:50:453 [HTTP] --> GET /wd/hub/session/5943a065-91de-4ad8-984e-20bbd36960c2/context
+2021-09-25 17:38:50:453 [HTTP] {}
+2021-09-25 17:38:50:454 [HTTP] <-- GET /wd/hub/session/5943a065-91de-4ad8-984e-20bbd36960c2/context 200 1 ms - 22
+2021-09-25 17:38:50:454 [HTTP] 
+2021-09-25 17:38:50:456 [HTTP] --> POST /wd/hub/session/5943a065-91de-4ad8-984e-20bbd36960c2/element
+2021-09-25 17:38:50:456 [HTTP] {"using":"xpath","value":"//android.widget.TextView[contains(@text,'Car')]/.."}
+2021-09-25 17:38:50:518 [HTTP] <-- POST /wd/hub/session/5943a065-91de-4ad8-984e-20bbd36960c2/element 200 62 ms - 137
+2021-09-25 17:38:50:519 [HTTP] 
+2021-09-25 17:38:50:521 [HTTP] --> POST /wd/hub/session/5943a065-91de-4ad8-984e-20bbd36960c2/element/56dd2628-725f-4228-8614-fe85f0563f5f/click
+2021-09-25 17:38:50:521 [HTTP] {"id":"56dd2628-725f-4228-8614-fe85f0563f5f"}
+2021-09-25 17:38:52:129 [HTTP] <-- POST /wd/hub/session/5943a065-91de-4ad8-984e-20bbd36960c2/element/56dd2628-725f-4228-8614-fe85f0563f5f/click 200 1608 ms - 14
+2021-09-25 17:38:52:129 [HTTP] 
+2021-09-25 17:38:52:131 [HTTP] --> GET /wd/hub/session/5943a065-91de-4ad8-984e-20bbd36960c2/context
+2021-09-25 17:38:52:131 [HTTP] {}
+2021-09-25 17:38:52:132 [HTTP] <-- GET /wd/hub/session/5943a065-91de-4ad8-984e-20bbd36960c2/context 200 1 ms - 22
+2021-09-25 17:38:52:132 [HTTP] 
+2021-09-25 17:38:52:135 [HTTP] --> POST /wd/hub/session/5943a065-91de-4ad8-984e-20bbd36960c2/element
+2021-09-25 17:38:52:135 [HTTP] {"using":"id","value":"com.monefy.app.lite:id/balance_amount"}
+2021-09-25 17:38:52:314 [HTTP] <-- POST /wd/hub/session/5943a065-91de-4ad8-984e-20bbd36960c2/element 200 179 ms - 137
+2021-09-25 17:38:52:314 [HTTP] 
+2021-09-25 17:38:52:315 [HTTP] --> GET /wd/hub/session/5943a065-91de-4ad8-984e-20bbd36960c2/element/24f67ff3-d066-4052-be5d-2a9ecc7a95b3/displayed
+2021-09-25 17:38:52:315 [HTTP] {}
+2021-09-25 17:38:52:347 [HTTP] <-- GET /wd/hub/session/5943a065-91de-4ad8-984e-20bbd36960c2/element/24f67ff3-d066-4052-be5d-2a9ecc7a95b3/displayed 200 32 ms - 14
+2021-09-25 17:38:52:347 [HTTP] 
+2021-09-25 17:38:52:349 [HTTP] --> GET /wd/hub/session/5943a065-91de-4ad8-984e-20bbd36960c2/context
+2021-09-25 17:38:52:349 [HTTP] {}
+2021-09-25 17:38:52:350 [HTTP] <-- GET /wd/hub/session/5943a065-91de-4ad8-984e-20bbd36960c2/context 200 1 ms - 22
+2021-09-25 17:38:52:350 [HTTP] 
+2021-09-25 17:38:52:352 [HTTP] --> POST /wd/hub/session/5943a065-91de-4ad8-984e-20bbd36960c2/element
+2021-09-25 17:38:52:352 [HTTP] {"using":"id","value":"com.monefy.app.lite:id/balance_amount"}
+2021-09-25 17:38:52:530 [HTTP] <-- POST /wd/hub/session/5943a065-91de-4ad8-984e-20bbd36960c2/element 200 177 ms - 137
+2021-09-25 17:38:52:530 [HTTP] 
+2021-09-25 17:38:52:531 [HTTP] --> GET /wd/hub/session/5943a065-91de-4ad8-984e-20bbd36960c2/element/3c272a1a-ec82-485f-bc3f-4e257508d26d/text
+2021-09-25 17:38:52:531 [HTTP] {}
+2021-09-25 17:38:52:532 [W3C (5943a065)] Driver proxy active, passing request on via HTTP proxy
+2021-09-25 17:38:52:565 [WD Proxy] Replacing sessionId 883abb07-7f25-42ec-a44e-f20cc643b96b with 5943a065-91de-4ad8-984e-20bbd36960c2
+2021-09-25 17:38:52:565 [HTTP] <-- GET /wd/hub/session/5943a065-91de-4ad8-984e-20bbd36960c2/element/3c272a1a-ec82-485f-bc3f-4e257508d26d/text 200 34 ms - 77
+2021-09-25 17:38:52:566 [HTTP] 
+2021-09-25 17:38:52:570 [HTTP] --> DELETE /wd/hub/session/5943a065-91de-4ad8-984e-20bbd36960c2
+2021-09-25 17:38:52:570 [HTTP] {}
+2021-09-25 17:38:52:571 [Appium] Removing session 5943a065-91de-4ad8-984e-20bbd36960c2 from our master session list
+2021-09-25 17:38:52:650 [UiAutomator2] Restoring hidden api policy to the device default configuration
+2021-09-25 17:38:52:802 [HTTP] <-- DELETE /wd/hub/session/5943a065-91de-4ad8-984e-20bbd36960c2 200 232 ms - 14
+2021-09-25 17:38:52:802 [HTTP] 
+2021-09-25 17:38:52:807 [Appium] Received SIGTERM - shutting down

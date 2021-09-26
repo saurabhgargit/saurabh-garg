@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="3" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Monefy App Automation" duration-ms="24933" started-at="2021-09-25T17:44:14Z" finished-at="2021-09-25T17:44:39Z">
+    <groups>
+    </groups>
+    <test name="all-tests" duration-ms="24933" started-at="2021-09-25T17:44:14Z" finished-at="2021-09-25T17:44:39Z">
+      <class name="tests.MonefyTestCases">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:tests.MonefyTestCases@6950e31]" name="beforeMethod" is-config="true" duration-ms="7095" started-at="2021-09-25T17:44:14Z" finished-at="2021-09-25T17:44:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="verifyBalanceValueAfterEnteringIncomeAndExpenses()[pri:0, instance:tests.MonefyTestCases@6950e31]" name="verifyBalanceValueAfterEnteringIncomeAndExpenses" duration-ms="17574" started-at="2021-09-25T17:44:21Z" finished-at="2021-09-25T17:44:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyBalanceValueAfterEnteringIncomeAndExpenses -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:tests.MonefyTestCases@6950e31]" name="afterMethod" is-config="true" duration-ms="253" started-at="2021-09-25T17:44:38Z" finished-at="2021-09-25T17:44:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- tests.MonefyTestCases -->
+      <class name="tests.SuiteConfig">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:tests.SuiteConfig@2db7a79b]" name="beforeSuite" is-config="true" duration-ms="121" started-at="2021-09-25T17:44:14Z" finished-at="2021-09-25T17:44:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:tests.SuiteConfig@2db7a79b]" name="afterSuite" is-config="true" duration-ms="0" started-at="2021-09-25T17:44:39Z" finished-at="2021-09-25T17:44:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- tests.SuiteConfig -->
+    </test> <!-- all-tests -->
+  </suite> <!-- Monefy App Automation -->
+</testng-results>
